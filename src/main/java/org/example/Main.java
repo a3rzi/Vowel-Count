@@ -1,9 +1,13 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         //given
-        String str = "amirhossein";
+        System.out.println("enter the word: ");
+        Scanner input = new Scanner(System.in);
+        String str = input.nextLine();
 
         //when
         //return the number (count) of vowels in the given string.
